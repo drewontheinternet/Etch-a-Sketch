@@ -1,0 +1,62 @@
+* {
+    outline: 1px solid blue !important;
+    margin: 0px;
+}
+
+body {
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+.title {
+    align-self: center;
+    padding: 32px;
+}
+
+.etchMain {
+    width: 1200px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+
+
+
+.size {
+    width: 20%;
+    height: 50%;
+    background-color: gray;
+    border-radius: 6px;
+    border: darkgray;
+    border: 6px solid black;
+}
+
+.etch {
+    width: 50%;
+    height: 80%;
+    display: grid;
+    border: 6px solid black;
+    border-radius: 6px;
+    background-color: white;
+    
+
+
+}
+
+.tools {
+    width: 20%;
+    height: 50%;
+    border: 6px solid black;
+    border-radius: 6px;
+
+}
